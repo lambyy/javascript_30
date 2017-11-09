@@ -24,6 +24,12 @@ body,html {
   font-size: 1.5rem;
   padding: 1rem .5rem;
   transition: all .07s ease;
+  /*
+  css transitions allow property values to smoothly change over a given duration
+  specify the property to change and duration, default duration is 0
+  transition effect will start when the specified CSS property changes value
+  can specify speed curve of transition
+  */
   width: 10rem;
   text-align: center;
   color: white;
@@ -33,6 +39,9 @@ body,html {
 
 .playing {
   transform: scale(1.1);
+  /*
+  css transforms allow translate, rotate, scale and skew elements, lets element change shape, size, position
+  */
   border-color: #ffc600;
   box-shadow: 0 0 1rem #ffc600;
 }
